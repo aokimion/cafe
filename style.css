@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#C{
+    text-align: center;
+}
+
+#D{
+    text-align: center;
+}
+
+.B{
+    display: flex;
+    font-size: 1.25rem;
+    list-style: none;
+    margin-top: 34px;
+}
+
+.B li{
+    margin-left: 7%;
+}
+
+.B a{
+    color: rgb(221, 157, 157);
+}
+
+.B a:hover{
+    color: rgb(17, 16, 16);
+}
+
+#header{
+    background-position: center;
+    object-fit: cover;
+    background-image: url(coffee-801781_1280.jpg);  
+}   
+
+#sha{
+   background: rgba(255,255,255,.9);
+}
+
+u{
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: 42%; 
+}
+
+
+#section1{
+    background-color: rgb(248, 249, 249);
+}
+
+#H{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: rgb(74, 41, 41);
+}
+
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    size: 100px;
+    font-family: 'BIZ UDMincho', serif;
+}
+
+h4{
+    text-align: center;
+    font-family: 'BIZ UDMincho', serif;
+}
+
+#pas{
+    text-align: left;
+    transform: rotateZ(20deg);
+}
+#hot{
+    text-align: right;
+    transform: rotateZ(-20deg);
+    
+}
+
+#section2{
+    background-color: rgb(171, 169, 169);
+}
+
+#center{
+    text-align: center;
+}
+
+#past{
+    position: absolute;top: 20%; right: 10%;
+}
+
+#menu1{
+    font-family: 'BIZ UDMincho', serif;
+}
+#menu2{
+    font-family: 'BIZ UDMincho', serif;
+}
+#menu3{
+    font-family: 'BIZ UDMincho', serif;
+}
+#menu4{  
+    font-family: 'BIZ UDMincho', serif;
+}
+
+#background-white1{
+	width: 550px;
+	height: 650px;
+	background: #fefdf3;
+    margin-top: 0%;
+    margin-left: 12%;
+    position: absolute;
+}
+#ps{
+    margin-left: 50%;
+    margin-top: 0%;
+}
+
+#doria{
+    position: absolute;
+    left: 10%;
+    margin-top: 20%;
+}
+
+#piza{
+    position: absolute;
+    left: 50%;
+    margin-top:70% ;
+}
+
+#background-white2{
+    width: 550px;
+	height: 650px;
+	background: #fefdf3;
+    margin-left: 50%;
+    margin-top: 20%;
+    position: relative;
+}
+
+#background-white3{
+    width: 550px;
+	height: 650px;
+	background: #fefdf3;
+    margin-top: 10%;
+    margin-left: 12%; 
+    position: relative;
+}
+
+.infomation{
+    background-color: #ffffff;
+}
+
+#diary{
+    text-align: center;
+}
+
+#week{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+#week > div {
+    position: relative;
+}
+
+#week p {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.50rem;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+#sweat-blue{
+   background: #033869;
+   text-align: center;
+   padding-bottom: 10%;
+}
+
+p{
+   color: #ffffff; 
+
+}
+
+#blue{
+    background: #180663;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+#blue p
+{
+    padding-right: 20px;
+    border-right: 2px solid #fff;
+    
+}
+
+#blue p:last-of-type
+{
+    padding-right: 0;
+    border-right: none;
+}
+
+#sns{
+    background-color: #180663;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+#sns p{
+    border: 2px solid #fefdf3;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background: #fff;
+  }
+  .slide img {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    left: 100%;
+    animation: slide-anime 12s ease infinite;
+  }
+.slide img:nth-of-type(1) {animation-delay: 0s;}
+.slide img:nth-of-type(2) {animation-delay: 4s;}
+.slide img:nth-of-type(3) {animation-delay: 8s;}
+ 
+@keyframes slide-anime{
+  0% {left: 100%;}
+  2% {left: 0;}
+  18% {left: 0;}
+  20% {left: -100%;}
+  100% {left: -100%;}
+}
+
+
